@@ -19,23 +19,26 @@ body {
     justify-content: center;
     align-items: center;
     width: 350px;
-    height: 450px;
-    border: 1px solid black;
+    height: 550px;
+    border: 1px solid rgba(211, 211, 211, 0.391);
+    border-radius: 8px;
     background-color: rgba(211, 211, 211, 0.391);
 }
 
 .calculator-wrapper {
     width: 300px;
-    height: 400px;
+    height: 450px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 5px;
+    gap: 3px;
     background-color: white;
     padding: 3px;
 }
 
 .calculator-wrapper > #display-screen {
-    text-align: end;
+    display: flex;
+    align-items: center;
+    justify-content: end;
     border: 1px solid gray;
     font-size: large;
     font-weight: bold;
